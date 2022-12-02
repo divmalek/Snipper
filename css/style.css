@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important; 
+    background-color: #dbf4fe !important;
+
+}
+.nav-item{
+    margin-left: 20px;
+}
+.navbar{
+    padding: 40px !important;
+}
+.navbar img{
+    width: 30px;
+}
+.nav-link{
+    font-weight: 600 !important;
+}
+.texty h2{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.oho{
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.oho .btn{
+padding: 15px 30px ;
+margin-bottom: 25px;
+}
+.oho h2{
+    font-weight: bold ;
+    font-size: 50px; 
+    line-height: 80px; 
+    color: black;
+}
+
+.cd i{
+    color: #3b8df3;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.cd p{
+    color: gray;
+}
+.srv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.srv .cd{
+    width: 400px;
+    border: solid 1px #3b8df3 ;
+    margin: 0 10px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+   
+}
+.texto h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 50px;
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+
+    margin: auto;
+}
+.whity{
+    background-color: white;
+}
+.lnady img{
+    width: 450px;
+    padding: 50px 0;
+    border-radius: 20%;
+
+}
+.texta{
+    margin-top: 150px;
+}
+.texta h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.foty{
+    background-color: white !important;
+    color: black;
+    padding: 20px;
+    font-weight: bolder;
+    width:100%;
+}
+.container{
+    overflow: hidden;
+}
+@media (max-width:600px) {
+.texto h2{
+    font-size: 20px;
+}
+}
+@media (max-width:991px) {
+    .lnady .texta{
+        
+        padding: 0 50px;
+        margin: 0; 
+        text-align: center;
+
+    }
+    .oho img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lnady{
+        padding-bottom: 50px;
+    }
+    .lnady img{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+   
+    
+    }
+    
